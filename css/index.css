@@ -168,6 +168,17 @@ p {
   height: 100%;
   background-color: #F1F1F1;
   padding-bottom: 2%;
+  position: fixed;
+  top: 0;
+  height: 12%;
+  opacity: 0.8;
+}
+@media (max-width: 500px) {
+  .navigation {
+    position: absolute;
+    opacity: 1;
+    width: 105%;
+  }
 }
 h1 {
   font-size: 5rem;
@@ -197,6 +208,9 @@ nav a {
   color: #454A59;
   text-decoration: none;
 }
+nav a:hover {
+  color: aqua;
+}
 @media (max-width: 500px) {
   nav a {
     font-size: 1.5rem;
@@ -211,6 +225,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .headerimg {
+  margin-top: 18.5%;
 }
 .home .intro h2 {
   padding: 15px;
