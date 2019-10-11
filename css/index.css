@@ -180,7 +180,8 @@ h1 {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: stretch;
   width: 40%;
 }
 @media (max-width: 500px) {
@@ -189,6 +190,8 @@ nav {
   }
 }
 nav a {
+  display: block;
+  text-align: center;
   width: 100%;
   font-size: 2rem;
   color: #454A59;
